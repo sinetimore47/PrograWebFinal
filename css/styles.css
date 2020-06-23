@@ -1,0 +1,77 @@
+.navbar{
+    padding: 8px 15%;
+    background-color: #222831;
+}
+
+.container-fluid{
+    padding: 2% 15%;
+    margin-top: 56px;
+}
+
+.navbar-brand{
+    color: #00adb5 !important;
+}
+
+.title{
+    margin-bottom: 30px;
+}
+
+/* TABLAS */
+
+.table-fixed tbody {
+    height: 300px;
+    overflow-y: auto;
+    width: 100%;
+}
+
+.table-fixed thead,
+.table-fixed tbody,
+.table-fixed tr,
+.table-fixed td,
+.table-fixed th {
+    display: block;
+}
+
+.table-fixed tbody td,
+.table-fixed tbody th,
+.table-fixed thead > tr > th {
+    float: left;
+    position: relative;
+    
+}
+
+/* Custom Scrollbar using CSS */
+.custom-scrollbar-css {
+    overflow-y: scroll;
+  }
+  
+  /* scrollbar width */
+  .custom-scrollbar-css::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* scrollbar track */
+  .custom-scrollbar-css::-webkit-scrollbar-track {
+    background: #eee;
+  }
+  
+  /* scrollbar handle */
+  .custom-scrollbar-css::-webkit-scrollbar-thumb {
+    border-radius: 1rem;
+    background-color: #00d2ff;
+    background-image: linear-gradient(to top, #00d2ff 0%, #3a7bd5 100%);
+  }
+
+/* CV */
+
+.pdf-viewer{
+    width: 100%;
+    height: 70vh;
+}
+
+.cv{
+    height: 90vh;
+}
+
+/* MIS DATOS */
+
